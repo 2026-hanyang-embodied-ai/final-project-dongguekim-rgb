@@ -13,7 +13,7 @@ Dept. of Automotive Engineering, Hanyang University
 | Presentation slides | [FinalProject_HyunjunKim_Dongguekim_Jeongwoopark.pdf](FinalProject_HyunjunKim_Dongguekim_Jeongwoopark.pdf) |
 | Report | [Report.pdf](Report.pdf) |
 | Dataset | [NAVSIM](https://github.com/autonomousvision/navsim) (not included in this repo — see [Dataset](#dataset) below) |
-| Demo | See [Demo](#demo) below — qualitative result figures from the report |
+| Demo video | [YouTube](https://youtu.be/uQsQ1fpQokA) |
 | Runnable notebook | [final-project.ipynb](final-project.ipynb) |
 
 ## Overview
@@ -29,7 +29,9 @@ On NAVSIM v2, DRSI (Large, 16,384-candidate vocabulary) reduces inference latenc
 
 ## Demo
 
-This project does not ship a separate demo video. Instead, refer to the qualitative results in [Report.pdf](Report.pdf):
+A demo video is available on [YouTube](https://youtu.be/uQsQ1fpQokA).
+
+For additional qualitative results, refer to [Report.pdf](Report.pdf):
 
 - **Fig. 3** — visualizes the Scene-aware Candidate Retrieval (SCR) pipeline in a low-speed right-turn scene: full vocabulary → after Global Route Compliance (GRC) retrieval → after Dynamic Reachability Compliance (DRC) retrieval.
 - **Table I–IV** — latency / EPDMS comparison against the Hydra-MDP++ baseline, the `navhard`/`navtest` submetric breakdown, and the ablation study on each DRSI component.
